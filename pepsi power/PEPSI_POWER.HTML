@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi power</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <img src="image/logo.png" class="logo">
+            <ul>
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Products</li>
+                <li><a href="#"></a>What a newa</li>
+                <li><a href="#"></a>News latters</li>
+                <li><a href="#"></a>Contacts</li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+
+                <h2>THAT'S WHAT <BR> <span>I LIKE</span></h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloremque repellendus adipisci
+                    nesciunt numquam ipsa illum magnam, odit voluptate, unde nulla asperiores iste magni officiis ea,
+                    eos aliquam a autem consectetur ut earum eligendi! Natus, a fugit.</P>
+                <a href="#"> Views All Products</a>
+
+            </div>
+            <div class="imgbox">
+                <img src="image/pepsi001.png" class="pepsi" srcset="">
+            </div>
+        </div>
+        <ul class="thum">
+            <li><img src="image/pepsi001.png" onclick="imgSlider('image/pepsi001.png');changeBgcolor('#0062be')";></li>
+            <li><img src="image/pepsi002.png" onclick="imgSlider('image/pepsi002.png');changeBgcolor('#ec0c2c')";></li>
+            <li><img src="image/pepsi003.png" onclick="imgSlider('image/pepsi003.png');changeBgcolor('#1e1e1e')";></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.instagram.com/ravan__73240/"><img src ="image/facebook.png" alt=""></a></li>
+            <li> <a href="https://www.facebook.com/profile.php?id=100004524558676"><img src="image/instagram.png" alt=""></a></li>
+            <li><img src="image/twitter.png" alt=""></li>
+        </ul>
+
+    </section>
+    <script>
+        function imgSlider(imgValue) {
+            document.querySelector('.pepsi').src= imgValue;
+        }
+        function changeBgcolor(color){
+            const sec= document.querySelector('.sec');
+            sec.style.background=color;
+        }
+     
+    </script>
+</body>
+
+</html>

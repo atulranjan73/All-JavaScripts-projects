@@ -1,4 +1,4 @@
-#Calculator projects
+#Pepsi power projects
 
 [htmls](PEPSI_POWER.HTML)
 [css](style.css)

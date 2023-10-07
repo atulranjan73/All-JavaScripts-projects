@@ -1,6 +1,8 @@
 #Calculator projects
 
-[htmls](PEPSI_POWER.HTML)
+[HTML CODE](PEPSI_POWER.HTML)
 
-[css](style.css)
+[CSS CODE](style.css)
 
+
+##OUTPUT🎯🎯
